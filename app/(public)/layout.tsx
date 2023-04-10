@@ -1,3 +1,5 @@
+import "../globals.css";
+
 export default function RootLayout({
   children,
 }: {
@@ -9,7 +11,7 @@ export default function RootLayout({
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
       </head>
 
-      <body>{children}</body>
+      <body className="bg-gray-900 text-white">{children}</body>
     </html>
   );
 }

@@ -12,7 +12,7 @@ export default function RootLayout({
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
       </head>
 
-      <body>
+      <body className="bg-gray-200">
         <header className="bg-slate-900 text-white">
           <nav className="flex justify-between items-center max-w-[1240px] my-0 mx-auto p-4 h-16">
             <Link
@@ -29,8 +29,8 @@ export default function RootLayout({
                 </Link>
               </li>
               <li>
-                <Link href="/blog" className="text-white hover:text-gray-400">
-                  Blog
+                <Link href="/login" className="text-white hover:text-gray-400">
+                  Logout
                 </Link>
               </li>
             </ul>
